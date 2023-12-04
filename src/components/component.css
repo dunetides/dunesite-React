@@ -1,0 +1,14 @@
+.app-component-container {
+  width: 484px;
+  height: 720px;
+  display: flex;
+  position: relative;
+  margin-left: -300px;
+  background-size: cover;
+  background-image: url("/page%20doll-800h.png");
+  background-position: center;
+}
+.app-component-root-class-name {
+  margin-left: -350px;
+  background-image: url("/page%20doll-200h.png");
+}

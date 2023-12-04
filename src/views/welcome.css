@@ -1,0 +1,91 @@
+.welcome-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://external-media.spacehey.net/media/sCS1ZNgP5DzLw7BMa67gxPBSpbmYFEmKGAaEf21evAgw=/https://64.media.tumblr.com/578ed7dbe9e1ab2f938d1cdb789a9de2/9aad0ce247ef6597-d9/s500x750/a03e154c2760904535590144a7a421ac056cf636.gifv');
+}
+.welcome-text {
+  color: rgb(173, 173, 150);
+  align-self: center;
+  font-style: italic;
+  font-family: Merriweather;
+  font-weight: 400;
+  margin-right: 800px;
+  margin-bottom: 15px;
+}
+.welcome-text01 {
+  color: #ADAD96;
+  font-size: 20px;
+  align-self: center;
+  margin-left: 250px;
+}
+.welcome-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 502px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.welcome-container2 {
+  flex: 0 0 auto;
+  width: 763px;
+  height: 502px;
+  display: flex;
+  opacity: 0.7;
+  position: relative;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000;
+}
+.welcome-text02 {
+  top: 0px;
+  left: 0px;
+  color: rgb(173, 173, 150);
+  right: 0px;
+  margin: -60px;
+  opacity: 1;
+  position: absolute;
+  font-size: 100px;
+}
+.welcome-text05 {
+  color: rgb(173, 173, 150);
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.welcome-navlink {
+  height: 33px;
+  padding: 0px;
+  align-self: center;
+  margin-right: 300px;
+  text-decoration: none;
+  background-color: #ADAD96;
+}
+@media(max-width: 1600px) {
+  .welcome-text05 {
+    color: rgb(0, 0, 0);
+  }
+  .welcome-text06 {
+    color: #adad96;
+  }
+  .welcome-text07 {
+    color: #adad96;
+  }
+  .welcome-text08 {
+    color: #adad96;
+  }
+  .welcome-text09 {
+    color: #adad96;
+  }
+  .welcome-text10 {
+    color: #adad96;
+  }
+}
